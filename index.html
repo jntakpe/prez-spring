@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Spring presentation</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sopra-banking.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="header">
+        <img class="logo" src="lib/images/banking-logo.svg" alt="Sopra banking software"/>
+        <span class="title">Spring</span>
+        <span class="author">Jocelyn N'TAKPÉ</span>
+    </div>
+    <div class="slides">
+        <section data-markdown># Spring</section>
+        <section>
+            <section data-markdown># Spring framework</section>
+            <section data-markdown="slides/framework/overview.md"></section>
+            <section data-markdown="slides/framework/popularity.md"></section>
+            <section data-markdown="slides/framework/problem.md"></section>
+            <section data-markdown="slides/framework/problem-ex.md"></section>
+            <section data-markdown="slides/framework/spring-ex.md"></section>
+            <section data-markdown="slides/framework/how-it-works.md"></section>
+            <section data-markdown="slides/framework/xml.md"></section>
+            <section data-markdown="slides/framework/annotation.md"></section>
+            <section data-markdown="slides/framework/autowire.md"></section>
+            <section data-markdown="slides/framework/variable.md"></section>
+            <section data-markdown="slides/framework/setter.md"></section>
+            <section data-markdown="slides/framework/constructor.md"></section>
+            <section data-markdown="slides/framework/constructor-kt.md"></section>
+            <section data-markdown="slides/framework/config.md"></section>
+            <section data-markdown="slides/framework/scope.md"></section>
+            <section data-markdown="slides/framework/spring-commons.md"></section>
+        </section>
+        <section>
+            <section data-markdown># Spring boot</section>
+            <section data-markdown="slides/boot/overview.md"></section>
+            <section data-markdown="slides/boot/features.md"></section>
+            <section data-markdown="slides/boot/how-it-works.md"></section>
+            <section data-markdown="slides/boot/container.md"></section>
+            <section data-markdown="slides/boot/boot-commons.md"></section>
+        </section>
+        <section>
+            <section data-markdown># Spring data</section>
+            <section data-markdown="slides/data/overview.md"></section>
+            <section data-markdown="slides/data/supports.md"></section>
+            <section data-markdown="slides/data/jpa.md"></section>
+            <section data-markdown="slides/data/jpa-repo.md"></section>
+            <section data-markdown="slides/data/repo.md"></section>
+            <section data-markdown="slides/data/rx-repo.md"></section>
+            <section data-markdown="slides/data/query-parser.md"></section>
+            <section data-markdown="slides/data/query-return.md"></section>
+            <section data-markdown="slides/data/and.md"></section>
+            <section data-markdown="slides/data/equals.md"></section>
+            <section data-markdown="slides/data/like.md"></section>
+            <section data-markdown="slides/data/starts-ends.md"></section>
+            <section data-markdown="slides/data/lessthan.md"></section>
+            <section data-markdown="slides/data/before-after.md"></section>
+            <section data-markdown="slides/data/truefalse.md"></section>
+            <section data-markdown="slides/data/null.md"></section>
+            <section data-markdown="slides/data/innotin.md"></section>
+            <section data-markdown="slides/data/ignorecase.md"></section>
+            <section data-markdown="slides/data/order.md"></section>
+            <section data-markdown="slides/data/first-top-dist.md"></section>
+            <section data-markdown="slides/data/query.md"></section>
+            <section data-markdown="slides/data/auditing.md"></section>
+            <section data-markdown="slides/data/data-commons.md"></section>
+        </section>
+        <section>
+            <section data-markdown># Spring web</section>
+            <section data-markdown="slides/web/overview.md"></section>
+            <section data-markdown="slides/web/tiers.md"></section>
+            <section data-markdown="slides/web/tiers-archi.md"></section>
+            <section data-markdown="slides/web/controller-role.md"></section>
+            <section data-markdown="slides/web/controller.md"></section>
+            <section data-markdown="slides/web/rx-controller.md"></section>
+            <section data-markdown="slides/web/kt-controller.md"></section>
+            <section data-markdown="slides/web/controller-schema.md"></section>
+            <section data-markdown="slides/web/servlet.md"></section>
+            <section data-markdown="slides/web/rx.md"></section>
+            <section data-markdown="slides/web/performance.md"></section>
+            <section data-markdown="slides/web/web-commons.md"></section>
+        </section>
+    </div>
+</div>
+
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/external-html.js"></script>
+<script>
+    Reveal.initialize({
+        width: 1200,
+        history: true,
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+
+    Reveal.configure({
+        slideNumber: true
+    });
+</script>
+</body>
+</html>
