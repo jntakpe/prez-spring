@@ -9,3 +9,5 @@ To declare a bean :
 * @Service : business logic layer
 * @Controller/@RestController: MVC or API layer
 * @Configuration : configuration class called at application startup
+
+*By default all Spring beans are singletons*

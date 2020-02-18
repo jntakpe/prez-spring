@@ -5,3 +5,5 @@
 * JavaEE without application server
 * Help write cleaner code
 * AOP/proxies
+* Opinionated
+* Business over specification

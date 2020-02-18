@@ -1,4 +1,4 @@
-## Content negociation
+## Content negotiation
 
 Client and services must agree on a representation media type through content negociation
 
