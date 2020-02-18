@@ -1,4 +1,4 @@
-## Spring Data Mongo
+## Spring Data Mongo reactive repository
 
 ```java
 public interface ManufacturerRepository extends ReactiveMongoRepository<Manufacturer, Long> {

@@ -1,8 +1,7 @@
-## Responsabilities
+## Responsibilities
 
-* Interpret user input and transform to input to a model
-* Provide access to business logic
+* Interprets user input and transforms to input to a model
+* Provides access to business logic
 * Interprets exception from the service tier
-* Determines view based off login 
-or in out case
-* Transform data returned by the API 
+* Determines view based on login or in/out case
+* Transforms data returned by the API 
